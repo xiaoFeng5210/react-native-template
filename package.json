@@ -1,0 +1,20 @@
+{
+  "name": "react-native-template",
+  "version": "1.0.0",
+  "description": "基于expo搭建的一个react-native应用脚手架",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoFeng5210/react-native-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaoFeng5210/react-native-template/issues"
+  },
+  "homepage": "https://github.com/xiaoFeng5210/react-native-template#readme"
+}
