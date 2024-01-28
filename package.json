@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "基于expo搭建的一个react-native应用脚手架",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
