@@ -6,9 +6,13 @@ import fs from 'node:fs'
 
 
 
-fs.mkdirSync('./react-native-cli')
+fs.mkdirSync(getRootPath())
 
-fs.writeFileSync('./react-native-cli/index.js', '内容')
+fs.writeFileSync(`${getRootPath()}/index.js`, '内容')
 
-fs.writeFileSync('./react-native-cli/package.json', 'package')
+fs.writeFileSync(`${getRootPath()}/package.json`, 'package')
+
+function getRootPath() {
+  return './react-native-cli'
+}
 
